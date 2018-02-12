@@ -1,3 +1,11 @@
+/* All Text Styling */
+h1, h2, h3, h4, h5, span {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: SeaShell;
+  text-align: center;
+}
+
 /* Navigation Header */
 .nav-container {
   display: inline-flex;
@@ -11,8 +19,6 @@
   background-color: black;
   border-bottom: 1px solid SeaShell;
   opacity: 0.9;
-  font-size: 22px;
-  color: SeaShell;
 }
 
 .logo {
@@ -22,11 +28,39 @@
 
 .nav-links {
   padding-right: 10px;
+
 }
 
 .links {
   text-decoration: underline;
 }
 
-/* Body Section
-Mission Container */
+/* Body Section*/
+.body-container {
+  background-color: black;
+  width: 1240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 71px;
+}
+
+/* Mission Container */
+.mission {
+  background-image: url("images/mission_background.jpg");
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 1200px;
+  height: 700px;
+}
+
+.mission-txt {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: 100%;
+}
+
+/* Tea of the Month Section */
