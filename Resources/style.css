@@ -1,0 +1,32 @@
+/* Navigation Header */
+.nav-container {
+  display: inline-flex;
+  flex-direction: row;
+  position: fixed;
+  z-index: 5;
+  justify-content: space-between;
+  align-items: center;
+  height: 69px;
+  width: 1240px;
+  background-color: black;
+  border-bottom: 1px solid SeaShell;
+  opacity: 0.9;
+  font-size: 22px;
+  color: SeaShell;
+}
+
+.logo {
+  padding-left: 10px;
+  height: 50px;
+}
+
+.nav-links {
+  padding-right: 10px;
+}
+
+.links {
+  text-decoration: underline;
+}
+
+/* Body Section
+Mission Container */
