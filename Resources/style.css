@@ -1,7 +1,6 @@
 /* All Text Styling */
 h1, h2, h3, h4, h5, span {
   font-family: Helvetica, sans-serif;
-  font-size: 22px;
   color: SeaShell;
   text-align: center;
 }
@@ -15,7 +14,7 @@ h1, h2, h3, h4, h5, span {
   justify-content: space-between;
   align-items: center;
   height: 69px;
-  width: 1240px;
+  width: 100%;
   background-color: black;
   border-bottom: 1px solid SeaShell;
   opacity: 0.9;
@@ -28,6 +27,7 @@ h1, h2, h3, h4, h5, span {
 
 .nav-links {
   padding-right: 10px;
+  font-size: 22px;
 
 }
 
@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, span {
 /* Body Section*/
 .body-container {
   background-color: black;
-  width: 1240px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -59,8 +59,54 @@ h1, h2, h3, h4, h5, span {
 .mission-txt {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
   background-color: black;
   width: 100%;
+  height: 100px;
 }
 
 /* Tea of the Month Section */
+.monthly-tea {
+  margin-top: 80px;
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.tea-items {
+  display: flex;
+  flex-direction: row;
+  max-width: 950px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+  height: 500px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box img {
+  height: 200px;
+  width: 300px;
+}
+
+.box h4 {
+  padding-top: 10px;
+}
+
+#myrtle {
+  margin-left: 155px;
+}
+
+#bizarre {
+  margin-right: 155px;
+}
+
+/* Locations Section */
