@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, span {
 
 /* Top Container Section */
 .mission {
-  background-image: url("images/mission_background.jpg");
+  background-image: url("Images/mission_background.jpg");
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -119,7 +119,7 @@ h1, h2, h3, h4, h5, span {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url("images/locations_background.jpg");
+  background-image: url("Images/locations_background.jpg");
   height: 500px;
   width: 1200px;
   margin-bottom: 15px;
@@ -193,3 +193,5 @@ h1, h2, h3, h4, h5, span {
   margin-left: 20px;
   height: 25%;
 }
+
+/* Fixed links */
